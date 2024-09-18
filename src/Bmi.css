@@ -11,11 +11,10 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
-.Bmi-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.Bmi-container-fluid{
+    margin-top: 15%;
 
 }
 
@@ -91,4 +90,7 @@ margin-left: 10px;
   font-size: 13px;
   font-weight: 500;
   margin-bottom: 10px;
+}
+.box img{
+    border-radius: 5px;
 }
