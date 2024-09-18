@@ -79,7 +79,7 @@ const Bmi = () => {
         <Col lg={6} sm={12} md={12}>
           <div className='bmi-img'>
             <div className="box">
-             <img src={bmiimage}  className="img-fluid" />
+             <img src={bmiimage}className="img-fluid" alt='Bmi-image'/>
             </div>
             </div>
         </Col>
