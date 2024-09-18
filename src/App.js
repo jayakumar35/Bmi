@@ -1,8 +1,7 @@
-import './App.css';
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
+import {Container, Row, Col} from 'react-bootstrap';
 import { useState } from 'react'
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 
 function App() {
@@ -54,11 +53,15 @@ function App() {
   }
   return (
     <Container>
-      <Row>
-        <Col>
-          <div className='bmi-calculator'>
+      <Row  className="alin-item-center">
+        <Col xs={12} sm={6} md={4} className='Bmi-img'>
+        <div className='bmi-calculator'>
             <div className="box"></div>
-            <div className="data">
+            </div>
+
+        </Col>
+        <Col xs={12} sm={6} md={4}>
+        <div className="data">
               <h1>BMI Calculator</h1>
               {errorMassage && <p className="error">{errorMassage}</p>}
               <div className="input-container">
@@ -80,9 +83,9 @@ function App() {
               )}
             </div>
 
-          </div>
-
         </Col>
+
+
       </Row>
     </Container>
 
